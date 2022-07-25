@@ -1651,7 +1651,6 @@ footer hr {
   width: 100%;
   max-width: 1165px;
   margin: auto;
-  position: relative;
 }
 .main_publication .publication_wrapper .our_service_title {
   margin-bottom: 90px;
@@ -1681,6 +1680,7 @@ footer hr {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 40px;
+  position: relative;
 }
 .main_publication .publication_wrapper .publication_container .publication_col {
   display: -webkit-box;
