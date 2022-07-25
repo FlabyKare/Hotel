@@ -786,6 +786,9 @@
   .publication_wrapper {
     padding: 0 5%;
   }
+  .publication_wrapper .our_service_title {
+    margin-bottom: 30px !important;
+  }
   .publication_wrapper .publication_container {
     gap: 0 !important;
   }
@@ -830,6 +833,9 @@
   }
   .publication_wrapper {
     padding: 0 5%;
+  }
+  .publication_wrapper .our_service_title {
+    margin-bottom: 30px !important;
   }
   .publication_wrapper .publication_container {
     gap: 0 !important;
@@ -1646,6 +1652,9 @@ footer hr {
   max-width: 1165px;
   margin: auto;
   position: relative;
+}
+.main_publication .publication_wrapper .our_service_title {
+  margin-bottom: 90px;
 }
 .main_publication .publication_wrapper .vertical_line {
   position: absolute;
