@@ -887,7 +887,9 @@ footer{
     }
 }
 
-
+.text_left{
+    text-align: left;
+}
 .road_border_col_item{
     display: flex;
     flex-direction: column;
@@ -1060,4 +1062,57 @@ color: #424242;
     color: #FFFFFF;
     padding: 130px 300px 144px;
     background: #AEA38B;
+}
+// Kitchen
+
+.kitchen_wrapper{
+    width: 100%;
+    max-width: 1165px;
+    margin: 50px auto;
+    
+    p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #424242;
+    }
+    img{
+        width: 100%;
+    }
+
+    .kitchen_col1,.kitchen_col2{
+
+        gap: 40px;
+    }
+    .kitchen_col_item_imgs{
+        position: relative;
+        .absolute_top{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .absolute_bottom{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+
+    .kitchen_col_item{
+        width: 50%;
+
+    }
+}
+.kitchen_col2{
+    margin-top: 120px;
+    align-items: center;
+    .kitchen_col2_item{
+        width: 50%;
+    }
+    .our_service_title{
+        margin-bottom: 40px;
+    }
 }

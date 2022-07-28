@@ -1116,6 +1116,47 @@
   }
   .card_info_block {
     padding: 80px 5% 80px !important;
+    font-size: 20px !important;
+  }
+  .kitchen_wrapper {
+    padding: 0 5%;
+  }
+  .kitchen_wrapper .d_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .kitchen_wrapper .kitchen_col_item {
+    width: 100% !important;
+  }
+  .kitchen_wrapper .kitchen_col_item_imgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .kitchen_wrapper .kitchen_col_item_imgs .kitchen_col_item_img {
+    width: 100%;
+  }
+  .kitchen_wrapper .absolute_top {
+    position: inherit !important;
+  }
+  .kitchen_wrapper .absolute_bottom {
+    position: inherit !important;
+  }
+  .kitchen_wrapper .kitchen_col2 {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .kitchen_wrapper .kitchen_col2 .kitchen_col2_item {
+    width: 100%;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1204,6 +1245,46 @@
   .card_info_block {
     padding: 130px 60px 144px !important;
   }
+  .kitchen_wrapper {
+    padding: 0 5%;
+  }
+  .kitchen_wrapper .d_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .kitchen_wrapper .kitchen_col_item {
+    width: 100% !important;
+  }
+  .kitchen_wrapper .kitchen_col_item_imgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 20px;
+  }
+  .kitchen_wrapper .kitchen_col_item_imgs .kitchen_col_item_img {
+    width: 50%;
+  }
+  .kitchen_wrapper .absolute_top {
+    position: inherit !important;
+  }
+  .kitchen_wrapper .absolute_bottom {
+    position: inherit !important;
+  }
+  .kitchen_wrapper .kitchen_col2 {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .kitchen_wrapper .kitchen_col2 .kitchen_col2_item {
+    width: 100%;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .tudor_continer {
@@ -1277,6 +1358,46 @@
   .card_info_block {
     padding: 130px 100px 144px !important;
   }
+  .kitchen_wrapper {
+    padding: 0 5%;
+  }
+  .kitchen_wrapper .d_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .kitchen_wrapper .kitchen_col_item {
+    width: 100% !important;
+  }
+  .kitchen_wrapper .kitchen_col_item_imgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 20px;
+  }
+  .kitchen_wrapper .kitchen_col_item_imgs .kitchen_col_item_img {
+    width: 50%;
+  }
+  .kitchen_wrapper .absolute_top {
+    position: inherit !important;
+  }
+  .kitchen_wrapper .absolute_bottom {
+    position: inherit !important;
+  }
+  .kitchen_wrapper .kitchen_col2 {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .kitchen_wrapper .kitchen_col2 .kitchen_col2_item {
+    width: 100%;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .tudor_continer {
@@ -1316,6 +1437,46 @@
   }
   .card_info_block {
     padding: 130px 100px 144px !important;
+  }
+  .kitchen_wrapper {
+    padding: 0 5%;
+  }
+  .kitchen_wrapper .d_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .kitchen_wrapper .kitchen_col_item {
+    width: 100% !important;
+  }
+  .kitchen_wrapper .kitchen_col_item_imgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 20px;
+  }
+  .kitchen_wrapper .kitchen_col_item_imgs .kitchen_col_item_img {
+    width: 50%;
+  }
+  .kitchen_wrapper .absolute_top {
+    position: inherit !important;
+  }
+  .kitchen_wrapper .absolute_bottom {
+    position: inherit !important;
+  }
+  .kitchen_wrapper .kitchen_col2 {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .kitchen_wrapper .kitchen_col2 .kitchen_col2_item {
+    width: 100%;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
@@ -2337,6 +2498,10 @@ footer hr {
   padding: 0 1% 61px 0;
 }
 
+.text_left {
+  text-align: left;
+}
+
 .road_border_col_item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2536,4 +2701,53 @@ footer hr {
   color: #FFFFFF;
   padding: 130px 300px 144px;
   background: #AEA38B;
+}
+
+.kitchen_wrapper {
+  width: 100%;
+  max-width: 1165px;
+  margin: 50px auto;
+}
+.kitchen_wrapper p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #424242;
+}
+.kitchen_wrapper img {
+  width: 100%;
+}
+.kitchen_wrapper .kitchen_col1, .kitchen_wrapper .kitchen_col2 {
+  gap: 40px;
+}
+.kitchen_wrapper .kitchen_col_item_imgs {
+  position: relative;
+}
+.kitchen_wrapper .kitchen_col_item_imgs .absolute_top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.kitchen_wrapper .kitchen_col_item_imgs .absolute_bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.kitchen_wrapper .kitchen_col_item {
+  width: 50%;
+}
+
+.kitchen_col2 {
+  margin-top: 120px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.kitchen_col2 .kitchen_col2_item {
+  width: 50%;
+}
+.kitchen_col2 .our_service_title {
+  margin-bottom: 40px;
 }

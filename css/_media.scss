@@ -1249,12 +1249,7 @@
         gap: 20px;
         justify-content: center;
     }
-
-
-    
-    
     // Living Room
-
     .living_room{
 
             img{
@@ -1276,11 +1271,47 @@
             }
         }
     }
-
     // card_info_block
-
     .card_info_block{
         padding: 80px 5% 80px !important;
+        font-size: 20px !important;
+    }
+
+    
+    //kitchen
+
+    .kitchen_wrapper{
+        padding: 0 5%;
+        .d_flex{
+            flex-direction: column-reverse;
+        }
+        .kitchen_col_item{
+            width: 100% !important;
+    
+        }
+        .kitchen_col_item_imgs{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .kitchen_col_item_img{
+                width: 100%;
+            }
+        }
+        .absolute_top{
+            position: inherit !important;
+
+        }
+
+        .absolute_bottom{
+            position: inherit !important;
+
+        }
+        .kitchen_col2{
+            flex-direction: column !important;
+            .kitchen_col2_item{
+                width: 100%;
+            }
+        }
     }
 
 }
@@ -1335,11 +1366,7 @@
         gap: 20px;
         justify-content: center;
     }
-
-    
-    
     // Living Room
-
 .living_room{
     .living_room_container{
         padding: 0 5%;
@@ -1356,13 +1383,45 @@
         }
     }
 }
-
-
-
     // card_info_block
-
     .card_info_block{
         padding: 130px 60px 144px !important;
+    }
+    
+    //kitchen
+
+    .kitchen_wrapper{
+        padding: 0 5%;
+        .d_flex{
+            flex-direction: column-reverse;
+        }
+        .kitchen_col_item{
+            width: 100% !important;
+    
+        }
+        .kitchen_col_item_imgs{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            .kitchen_col_item_img{
+                width: 50%;
+            }
+        }
+        .absolute_top{
+            position: inherit !important;
+
+        }
+
+        .absolute_bottom{
+            position: inherit !important;
+
+        }
+        .kitchen_col2{
+            flex-direction: column !important;
+            .kitchen_col2_item{
+                width: 100%;
+            }
+        }
     }
 
 }
@@ -1375,8 +1434,6 @@
     .road_border_col_item_title{
         font-size: 32px !important;
     }
-
-    
     //review
     .review_item_info_cards,.review_item_info_img_text{
         flex-wrap: wrap;
@@ -1388,7 +1445,6 @@
     .review_item_text{
         padding: 0 3%;
     }
-
 // Hall
     .hall_item_flex{
         flex-direction: column;
@@ -1413,10 +1469,7 @@
         gap: 20px;
         justify-content: center;
     }
-
-    
     // Living Room
-
 .living_room{
     .living_room_container{
         padding: 0 5%;
@@ -1432,15 +1485,44 @@
         }
     }
 }
-
-
-
     // card_info_block
-
     .card_info_block{
         padding: 130px 100px 144px !important;
     }
+    //kitchen
+    .kitchen_wrapper{
+        padding: 0 5%;
+        .d_flex{
+            flex-direction: column-reverse;
+        }
+        .kitchen_col_item{
+            width: 100% !important;
+    
+        }
+        .kitchen_col_item_imgs{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            .kitchen_col_item_img{
+                width: 50%;
+            }
+        }
+        .absolute_top{
+            position: inherit !important;
 
+        }
+
+        .absolute_bottom{
+            position: inherit !important;
+
+        }
+        .kitchen_col2{
+            flex-direction: column !important;
+            .kitchen_col2_item{
+                width: 100%;
+            }
+        }
+    }
 }
 
 
@@ -1489,6 +1571,42 @@
 
     .card_info_block{
         padding: 130px 100px 144px !important;
+    }
+
+    //kitchen
+
+    .kitchen_wrapper{
+        padding: 0 5%;
+        .d_flex{
+            flex-direction: column-reverse;
+        }
+        .kitchen_col_item{
+            width: 100% !important;
+    
+        }
+        .kitchen_col_item_imgs{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            .kitchen_col_item_img{
+                width: 50%;
+            }
+        }
+        .absolute_top{
+            position: inherit !important;
+
+        }
+
+        .absolute_bottom{
+            position: inherit !important;
+
+        }
+        .kitchen_col2{
+            flex-direction: column !important;
+            .kitchen_col2_item{
+                width: 100%;
+            }
+        }
     }
 
 }
