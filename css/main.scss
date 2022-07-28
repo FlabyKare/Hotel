@@ -1,6 +1,8 @@
 @import '_media';
 body{
-
+*{
+    font-family: 'Open Sans',sans-serif !important;
+}
     &::-webkit-scrollbar {
         z-index: 999999999999999999999999999999999999 !important;
         background: #f1f1f1 ;
@@ -775,4 +777,287 @@ footer{
             }
         }
     }
+}
+
+
+
+
+
+
+// About_page
+.about_section{
+    width: 100%;
+    padding-bottom: 105px;
+    .our_service_title{
+        margin-bottom: 60px;
+    }
+    .about_section_col_img{
+        width: 70%;
+    }
+.margin_for_p{
+    margin-bottom: 2%;
+}
+    .about_section_wrapepr{
+        width: 100%;
+        max-width: 1165px;
+        margin: auto;
+        .about_section_container{
+            width: 100%;
+        }
+        .about_section_col{
+            display: flex;
+            gap: 40px;
+            justify-content: space-between;
+            margin-bottom: 35px;
+            align-items: center;
+            width: 100%;
+        }
+    }
+}
+.about_section_col_text{
+    p{
+        font-family: 'Open Sans',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        color: #424242;
+    }
+}
+
+.about_section_col_item_title{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #424242;
+}
+.about_section_col_item_text{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #424242;
+    
+}
+.about_section_col2{
+    margin-bottom: 0 !important;
+    .about_section_col_item{
+        flex-direction: column;
+        display: inline-flex;
+        gap: 20px;
+    }
+}
+
+
+
+
+// Тюдор page
+.tudor{
+    margin: 0 auto 50px; 
+}
+
+.tudor_wrapper{
+    width: 100%;
+    max-width: 1165px;
+    margin: auto;
+
+    .tudor_continer{
+        width: 100%;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .road_date_img{
+            margin: 50px auto 60px;
+            width: 100%;
+        }
+        .road_border{
+            width: 100%;
+            .road_border_col{
+                display: flex;
+                gap: 40px;
+                justify-content: center;
+                padding: 0 1% 61px 0;
+            }
+        }
+    }
+}
+
+
+.road_border_col_item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 360px;
+   
+}
+.road_border_col_item_icon{
+
+    display: none;
+}
+.road_border_col_item_title{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #424242;
+}
+.road_border_col_item_text{
+    font-family: 'Open Sans',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: #424242;
+}
+.w_100{
+    width: 100%;
+}
+.max_width_1165px{
+    width: 100%;
+    max-width: 1165px;
+}
+.d_flex{
+    display: flex;
+}
+.review_item_info_cards{
+    display: flex;
+    gap: 40px;
+}
+.pb-36{
+    padding: 37px 20px 36px !important;
+    height: 100px;
+}
+.review_item_cards_item{
+        padding: 23px 20px 23px;
+        color: #FFFFFF;
+        background: #AEA38B;
+        text-align: center;
+        font-family: 'Open Sans',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        width: 360px;
+
+}
+
+.review_item_info_img_text{
+    gap: 40px;
+    margin: 70px auto 140px;
+    .review_item_img{
+        width: 380px;
+    }
+}
+
+.hall_item,.hall_item_flex{
+    gap: 40px;
+}
+.hall_item_title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 63px;
+    color: #424242;
+    margin-bottom: 50px;
+}
+.hall_item_flex_item_text,.hall_col2_text{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: #424242;
+}
+.hall_col2{
+    margin-top: 50px;
+}
+.hall_item_flex_item_img,.hall_img_100height{
+    min-width: 260px;
+}
+
+.d_none_img{
+    display: block;
+}
+
+.d_none_img_block{
+    display: none;
+}
+
+.w100_img{
+   // background-image: url(../img/Tudor/6.png);
+    //background-size: cover;
+   // background-position: center;
+   // background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.first_img_as_bg{
+    width: 100%;
+    margin-bottom: 120px;
+    img{
+        width: 100%;
+    }
+}
+.living_room{
+    margin-bottom: 50px;
+
+}
+.living_room_container{
+    width: 100%;
+    max-width: 1165px;
+    margin: auto;
+}
+.living_room_col1{
+
+    .living_room_flex_item{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin: 50px auto 60px;
+    }
+}
+.living_room_col2{
+    border-top: 1px solid #503D2B;
+    display: flex;
+    gap: 40px;
+    .living_room_col2_item{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.living_room_flex_item_img{
+    display: inline-block;
+}
+.living_room_flex_item_text{
+    p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #424242;
+    }
+}
+.card_info_block{
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 130px 300px 144px;
+    background: #AEA38B;
 }
