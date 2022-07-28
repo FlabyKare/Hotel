@@ -1739,24 +1739,175 @@
 
 
 
-// Intro
+// Canteen
 
-@media(min-width:320px) and (max-width:575.98px){}
+@media(min-width:320px) and (max-width:575.98px){
+    .canteen_wrapper{
+        padding: 0 5%;
+
+        .canteen_col1{
+            flex-direction: column-reverse;
+            .canteen_col1_item_img{
+                width: 100% !important;
+            }
+            .canteen_col1_item_img {
+                min-width: 60px;
+            }
+        }
+
+        .canteen_col2{
+            margin: 50px auto 100px !important;
+
+            .canteen_col2_item_imgs{
+                justify-content: center;
+                width: 100%;
+            }
+            .canteen_col2_item_imgs_item{
+                min-width: 100%;
+            }
+            .kitchen_col2_item{
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+                gap: 40px;
+            }
+        }
+        .canteen_col3{
+            flex-direction: column;
+        }
+    }
+}
 
 
-@media(min-width:576px) and (max-width:767.98px){}
+@media(min-width:576px) and (max-width:767.98px){
+    .canteen_wrapper{
+        padding: 0 5%;
+
+        .canteen_col1{
+            flex-direction: column-reverse;
+            .canteen_col1_item_img{
+                width: 100%;
+            }
+        }
+
+        .canteen_col2{
+            margin: 50px auto 100px !important;
+
+            .canteen_col2_item_imgs{
+                justify-content: center;
+                width: 100%;
+            }
+            .canteen_col2_item_imgs_item{
+                min-width: 100%;
+            }
+            .kitchen_col2_item{
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+                gap: 40px;
+            }
+        }
+        .canteen_col3{
+            flex-direction: column;
+        }
+    }
+}
 
 
-@media(min-width:768px) and (max-width:991.98px){}
+@media(min-width:768px) and (max-width:991.98px){
+    .canteen_wrapper{
+        padding: 0 5%;
+
+        .canteen_col1{
+            flex-direction: column-reverse;
+            .canteen_col1_item_img{
+                width: 550px;
+            }
+        }
+
+        .canteen_col2{
+            margin: 50px auto 100px !important;
+
+            .canteen_col2_item_imgs{
+                justify-content: center;
+            }
+            .kitchen_col2_item{
+                display: flex;
+                align-items:center;
+                gap: 40px;
+            }
+        }
+    }
+}
 
 
-@media(min-width:992px) and (max-width:1199.98px){}
+@media(min-width:992px) and (max-width:1199.98px){
+    .canteen_wrapper{
+        padding: 0 5%;
+
+        .canteen_col1{
+            flex-direction: column-reverse;
+            .canteen_col1_item_img{
+                width: 550px;
+            }
+        }
+
+        .canteen_col2{
+            margin: 50px auto 100px !important;
+
+            .canteen_col2_item_imgs{
+                justify-content: center;
+            }
+            .kitchen_col2_item{
+                display: flex;
+                align-items:center;
+                gap: 40px;
+            }
+        }
+    }
+}
 
 
-@media(min-width:1200px) and (max-width:1399.98px){}
+@media(min-width:1200px) and (max-width:1399.98px){
+    .canteen_wrapper{
+        padding: 0 5%;
+        .canteen_col1{
+            flex-direction: column-reverse;
+            .canteen_col1_item_img{
+                width: 550px;
+            }
+        }
+
+        .canteen_col2{
+            margin: 50px auto 100px !important;
+
+            .canteen_col2_item_imgs{
+                justify-content: center;
+                display: block !important;
+            }
+            .kitchen_col2_item{
+                display: flex;
+                align-items:center;
+                gap: 40px;
+            }
+        }
+    }
 
 
-@media(min-width:1400px){}
+}
+
+
+@media(min-width:1400px){
+    .mobile_canteen_none_block{
+        display: block !important;
+    }
+    .canteen_col2_item_last_img{
+        display: block !important;
+    }
+    .canteen_col3_item_last_img{
+        display: none !important;
+    }
+}
 
 
 
