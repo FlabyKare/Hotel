@@ -1603,6 +1603,64 @@
     width: 100% !important;
     min-width: 1px !important;
   }
+  .canteen_wrapper .master_col {
+    width: 100% !important;
+  }
+  .canteen_wrapper .master_col_item_imgs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .canteen_wrapper .master_col_item_imgs .master_col_item_img {
+    width: 100%;
+  }
+  .canteen_wrapper .master_col_item {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .db_mobile {
+    display: none !important;
+  }
+  .grid_col1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+  .grid_col2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  .grid_col3 {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .grid_col3_wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 40px;
+    margin-top: 80px !important;
+  }
+  .grid_col_item {
+    width: 100%;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .canteen_wrapper {
@@ -1657,6 +1715,51 @@
     width: 100% !important;
     min-width: 1px !important;
   }
+  .canteen_wrapper .master_col {
+    width: 100% !important;
+  }
+  .canteen_wrapper .master_col_item_imgs {
+    width: 100%;
+  }
+  .canteen_wrapper .master_col_item_imgs .master_col_item_img {
+    width: 100%;
+  }
+  .canteen_wrapper .master_col_item {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grid_col1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+  .grid_col2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  .grid_col3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    width: 100%;
+  }
+  .grid_col3_wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 40px;
+    margin-top: 140px;
+  }
+  .grid_col_item {
+    width: 100%;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .canteen_wrapper {
@@ -1702,6 +1805,51 @@
     width: 50% !important;
     min-width: 1px !important;
   }
+  .canteen_wrapper .master_col {
+    width: 100% !important;
+  }
+  .canteen_wrapper .master_col_item_imgs {
+    width: 100%;
+  }
+  .canteen_wrapper .master_col_item_imgs .master_col_item_img {
+    width: 100%;
+  }
+  .canteen_wrapper .master_col_item {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grid_col1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+  .grid_col2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  .grid_col3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    width: 100%;
+  }
+  .grid_col3_wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 40px;
+    margin-top: 140px;
+  }
+  .grid_col_item {
+    width: 100%;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .canteen_wrapper {
@@ -1742,10 +1890,55 @@
     width: 50% !important;
     min-width: 1px !important;
   }
+  .canteen_wrapper .master_col {
+    width: 100% !important;
+  }
+  .canteen_wrapper .master_col_item_imgs {
+    width: 100%;
+  }
+  .canteen_wrapper .master_col_item_imgs .master_col_item_img {
+    width: 100%;
+  }
+  .canteen_wrapper .master_col_item {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grid_col1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+  .grid_col2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  .grid_col3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    width: 100%;
+  }
+  .grid_col3_wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 40px;
+    margin-top: 140px;
+  }
+  .grid_col_item {
+    width: 100%;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .canteen_wrapper {
-    padding: 0 5%;
+    padding: 0 2%;
   }
   .canteen_wrapper .canteen_col1 {
     -webkit-box-orient: vertical;
@@ -1801,6 +1994,30 @@
   .master_badroom_wrapepr .canteen_col2_item_imgs .canteen_col2_item_last_img {
     width: auto !important;
   }
+  .canteen_col2_item_last_img img {
+    height: 480px !important;
+  }
+  .grid_col1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  }
+  .grid_col2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  .grid_col3 {
+    grid-template-columns: repeat(2, minmax(1fr)) !important;
+  }
+  .grid_col3_wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 40px;
+    margin-top: 140px;
+  }
+  .grid_col_item {
+    width: 100%;
+  }
 }
 @media (min-width: 1400px) {
   .mobile_canteen_none_block {
@@ -1817,6 +2034,9 @@
   }
   .canteen_col3 .canteen_col3_last_img_mobile_block {
     display: none !important;
+  }
+  .canteen_col2_item_last_img img {
+    height: 485px !important;
   }
 }
 body * {
@@ -3022,7 +3242,7 @@ footer hr {
   margin-bottom: 40px;
 }
 .canteen_wrapper p {
-  margin: 0 !important;
+  margin: 0;
 }
 
 .canteen_col, .canteen_col3 {
@@ -3075,7 +3295,7 @@ footer hr {
   display: block;
 }
 
-.canteen_col3_item p {
+p {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -3083,7 +3303,8 @@ footer hr {
   line-height: 150%;
   color: #424242;
 }
-.canteen_col3_item .first_p {
+
+.first_p {
   margin-bottom: 10px !important;
 }
 
@@ -3119,4 +3340,68 @@ footer hr {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.img_w_100 img {
+  width: 100%;
+}
+
+.master_col_item {
+  gap: 40px;
+}
+
+.master_col_item_imgs {
+  gap: 40px;
+}
+
+.master_col_item1 {
+  width: 360px;
+}
+
+.master_col_item2 {
+  width: 260px;
+}
+
+.master_badroom {
+  margin-bottom: 120px;
+}
+
+.guest_badrooms_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.guest_badrooms_wrapper img {
+  width: 100%;
+}
+
+.grid_col {
+  display: grid;
+  gap: 40px;
+}
+
+.grid_col1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  grid-template-columns: repeat(3, 360px);
+}
+
+.grid_col2 {
+  grid-template-columns: repeat(2, 560px);
+}
+
+.grid_col3 {
+  grid-template-columns: repeat(2, 260px);
+}
+
+.grid_col3_wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  margin-top: 140px;
 }

@@ -1128,7 +1128,7 @@ color: #424242;
         margin-bottom: 40px;
     }
     p{
-        margin: 0 !important;
+        margin: 0;
     }
 }
 .canteen_col,.canteen_col3{
@@ -1174,20 +1174,22 @@ color: #424242;
     display: block;
 }
 .canteen_col3_item{
-    p{
-        font-family: 'Open Sans';
+
+
+}
+
+p{
+    font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 150%;
 color: #424242;
 
-    }
-    .first_p{
-        margin-bottom: 10px !important;
-    }
 }
-
+.first_p{
+    margin-bottom: 10px !important;
+}
 .mobile_img_as_bg_none{
     display: none;
 }
@@ -1211,4 +1213,58 @@ color: #424242;
 .master_badroom_info{
     flex-direction: column;
     justify-content: space-between;
+}
+
+.img_w_100{
+    img{
+        width: 100%;
+    }
+}
+.master_col_item{
+    gap: 40px;
+}
+.master_col_item_imgs{
+    gap: 40px;
+}
+
+.master_col_item1{
+    width: 360px;
+}
+
+.master_col_item2{
+    width: 260px;
+}
+.master_badroom{
+    margin-bottom: 120px;
+}
+.guest_badrooms_wrapper{
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 100%;
+    }
+}
+.grid_col{
+
+    display: grid;
+    gap: 40px;
+}
+.grid_col1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(3, 360px);
+}
+
+.grid_col2{
+
+    grid-template-columns: repeat(2, 560px);
+}
+.grid_col3{
+
+    grid-template-columns: repeat(2, 260px);
+}
+.grid_col3_wrapper{
+    align-items:center;
+    gap: 40px;
+    margin-top: 140px;
 }
