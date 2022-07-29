@@ -1744,7 +1744,10 @@
 @media(min-width:320px) and (max-width:575.98px){
     .canteen_wrapper{
         padding: 0 5%;
-
+        .our_service_title{
+            font-size: 35px !important;
+            margin-bottom: 20px !important;
+        }
         .canteen_col1{
             flex-direction: column-reverse;
             .canteen_col1_item_img{
@@ -1755,26 +1758,23 @@
             }
         }
 
-        .canteen_col2{
-            margin: 50px auto 100px !important;
-
-            .canteen_col2_item_imgs{
-                justify-content: center;
-                width: 100%;
-            }
-            .canteen_col2_item_imgs_item{
-                min-width: 100%;
-            }
-            .kitchen_col2_item{
-                display: flex;
-                flex-direction: column;
-                align-items:center;
-                gap: 40px;
-            }
-        }
         .canteen_col3{
+            align-items:inherit;
             flex-direction: column;
         }
+        .canteen_col2_item_imgs{
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .canteen_col2_item_imgs_item,.canteen_col2_item_last_img{
+            width: auto !important;
+
+        }
+        .canteen_col2_item_imgs_item {
+            width: 100% !important;
+            min-width: 1px !important;
+        }
+
     }
 }
 
@@ -1793,10 +1793,7 @@
         .canteen_col2{
             margin: 50px auto 100px !important;
 
-            .canteen_col2_item_imgs{
-                justify-content: center;
-                width: 100%;
-            }
+
             .canteen_col2_item_imgs_item{
                 min-width: 100%;
             }
@@ -1808,7 +1805,20 @@
             }
         }
         .canteen_col3{
+            align-items:inherit;
             flex-direction: column;
+        }
+        .canteen_col2_item_imgs{
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .canteen_col2_item_imgs_item,.canteen_col2_item_last_img{
+            width: auto !important;
+
+        }
+        .canteen_col2_item_imgs_item {
+            width: 100% !important;
+            min-width: 1px !important;
         }
     }
 }
@@ -1828,14 +1838,25 @@
         .canteen_col2{
             margin: 50px auto 100px !important;
 
-            .canteen_col2_item_imgs{
-                justify-content: center;
-            }
             .kitchen_col2_item{
                 display: flex;
+                flex-direction: column;
                 align-items:center;
                 gap: 40px;
             }
+        }
+        .canteen_col3{
+            align-items:inherit;
+        }
+        .canteen_col2_item_imgs{
+            width: 100%;
+        }
+        .canteen_col2_item_imgs_item,.canteen_col2_item_last_img{
+            width: auto !important;
+        }
+        .canteen_col2_item_imgs_item {
+            width: 50% !important;
+            min-width: 1px !important;
         }
     }
 }
@@ -1856,15 +1877,27 @@
             margin: 50px auto 100px !important;
 
             .canteen_col2_item_imgs{
-                justify-content: center;
+
             }
             .kitchen_col2_item{
                 display: flex;
+                flex-direction: column;
                 align-items:center;
                 gap: 40px;
             }
         }
+        .canteen_col2_item_imgs{
+            width: 100%;
+        }
+        .canteen_col2_item_imgs_item,.canteen_col2_item_last_img{
+            width: auto !important;
+        }
+        .canteen_col2_item_imgs_item {
+            width: 50% !important;
+            min-width: 1px !important;
+        }
     }
+    
 }
 
 
@@ -1882,17 +1915,48 @@
             margin: 50px auto 100px !important;
 
             .canteen_col2_item_imgs{
-                justify-content: center;
-                display: block !important;
+            width: 100%;
+
+
             }
+
             .kitchen_col2_item{
                 display: flex;
+                flex-direction: column;
                 align-items:center;
                 gap: 40px;
             }
         }
+        .canteen_col2_item_imgs_item,.canteen_col2_item_last_img{
+            width: auto !important;
+        }
+        .canteen_col2_item_imgs_item {
+            width: auto !important;
+            min-width: 1px !important;
+        }
     }
+    .canteen_col2_item_last_img{
+        display: block !important;
+    }
+.canteen_col3{
+    .canteen_col3_last_img_mobile_block{
+        display: none !important;
+    }
+}
 
+.master_badroom_wrapepr{
+    padding: 0 5%;
+    .canteen_col2_item_imgs{
+        width: 100%;
+        .canteen_col2_item_imgs_item{
+            width: 50%;
+            min-width: 1px !important;
+        }
+        .canteen_col2_item_last_img {
+            width: auto !important;
+        }
+    }
+}
 
 }
 
@@ -1907,6 +1971,13 @@
     .canteen_col3_item_last_img{
         display: none !important;
     }
+    .mobile_img_as_bg_none{
+        display: block !important;
+    }.canteen_col3{
+    .canteen_col3_last_img_mobile_block{
+        display: none !important;
+    }
+}
 }
 
 

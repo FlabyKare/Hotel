@@ -1153,6 +1153,11 @@ color: #424242;
         min-width: 360px;
     }
 }
+.canteen_col3{
+    .canteen_col3_last_img_mobile_block{
+        display: block;
+    }
+}
 .canteen_col2_item_last_img{
     min-width: 360px;
     height: 100%;
@@ -1167,4 +1172,43 @@ color: #424242;
 }
 .canteen_col3_item_last_img{
     display: block;
+}
+.canteen_col3_item{
+    p{
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: #424242;
+
+    }
+    .first_p{
+        margin-bottom: 10px !important;
+    }
+}
+
+.mobile_img_as_bg_none{
+    display: none;
+}
+
+.f_dir_col{
+    flex-direction: column;
+}
+.container_{
+    width: 100%;
+    max-width: 1165px;
+    margin: auto;
+}
+.master_badroom_wrapper{
+    .kitchen_col2_item{
+        gap: 40px;
+    }
+    .our_service_title{
+        margin-bottom: 40px;
+    }
+}
+.master_badroom_info{
+    flex-direction: column;
+    justify-content: space-between;
 }
