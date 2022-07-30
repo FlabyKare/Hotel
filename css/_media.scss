@@ -1748,6 +1748,9 @@
             font-size: 35px !important;
             margin-bottom: 20px !important;
         }
+        .kitchen_col2_item{
+            width: 100% ;
+        }
         .canteen_col1{
             flex-direction: column-reverse;
             .canteen_col1_item_img{
@@ -1802,9 +1805,37 @@
         //grid-template-columns: repeat(auto-fit, minmax(360px, 281px)) !important;
         //grid-template-columns: repeat(3, 320px) !important;
     }
-    
+
+    .master_col{
+        .our_service_title{
+            font-size: 25px !important;
+        }
+        .canteen_col2_title{
+            width: 100%;
+
+            .grid_col3_info{
+                width: 100%;
+            }
+            .slider_item{
+                width: 100%;
+                height: 200px;
+        
+            }
+        }
+    }
+    .guest_badrooms_wrapper,
+    .master_badroom,
+    .canteen,
+    .kitchen,
+    .living_room,
+    .hall{
+        .our_service_title,.hall_item_title{
+            font-size: 25px !important;
+        }
+    }
     .grid_col2{
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        
     }
     .grid_col3{
         display: flex !important;
@@ -1812,11 +1843,24 @@
         width: 100%;
 
     }
+    .grid_mobile_none{
+        display: none !important;
+    }
     .grid_col3_wrapper{
         align-items:center;
         flex-direction: column-reverse;
         gap: 40px;
         margin-top: 80px !important;
+        width: 100%;
+
+        .grid_col3_info{
+            width: 100%;
+        }
+        .slider_item{
+            width: 100%;
+            height: 200px;
+    
+        }
     }
     .grid_col_item{
         width: 100%;
@@ -1831,18 +1875,47 @@
             width: 100% !important;
         }
     }
+    .slider{
+        margin-top: 20px;
+        .slider_item{
+            width: 100%;
+            height: 350px !important;
+        }
+    }
+    .review_item_text {
+        padding: 0 3%;
+        width: 100%;
+    }
 }
 
 
 @media(min-width:576px) and (max-width:767.98px){
+    .review_section{
+        .canteen_col2_title{
+            width: 100%;
+        }
+    }
+    .master_badroom{
+        .review_item_info_img_text{
+            width: 100%;
+        }
+    }
+    .review_section{
+        .review_item_text{
+            width: 100%;
+        }
+    }
     .canteen_wrapper{
         padding: 0 5%;
-
+        .kitchen_col2_item,.canteen_col2_title{
+            width: 100% ;
+        }
         .canteen_col1{
             flex-direction: column-reverse;
             .canteen_col1_item_img{
                 width: 100%;
             }
+
         }
 
         .canteen_col2{
@@ -1891,7 +1964,9 @@
             align-items:center;
         }
     }
-        
+    .grid_mobile_none{
+        display: none !important;
+    }
 .grid_col1{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -1909,9 +1984,19 @@
 }
 .grid_col3_wrapper{
     align-items:center;
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 40px;
     margin-top: 140px;
+    width: 100%;
+
+    .grid_col3_info{
+        width: 100%;
+    }
+    .slider_item{
+        width: 100%;
+        height: 200px;
+
+    }
 }
 .grid_col_item{
     width: 100%;
@@ -1923,6 +2008,21 @@
         flex-direction: row;
     }
 }
+.slider_item{
+    width: 100%;
+    height: 500px !important;
+}
+.service_list{
+    .slider{
+        .slider_item{
+            width: 100%;
+            height: 400px;
+
+        }
+    }
+
+}
+
 }
 
 
